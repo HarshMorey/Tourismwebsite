@@ -1,0 +1,49 @@
+body{
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container .pic{
+    float: left;
+    width: 40%;
+ 
+}
+.container .desc{
+    /* float: right; */
+    box-shadow: 1px 1px 4px black;
+}
+nav{
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.24);
+    position: fixed;
+
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    }
+
+    .menu a:hover{
+        color:crimson;
+    }
